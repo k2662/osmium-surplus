@@ -213,4 +213,7 @@ jobs:
       - uses: ./.github/actions/cmake
       - uses: ./.github/actions/build
       - uses: ./.github/actions/ctest
+      - uses: actions/upload-artifact@v4.0.0
+        with:
+          path: ./
 
